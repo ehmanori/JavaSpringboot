@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="967e799e-a5db-46f0-b120-aa44f9d79d2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSpringboot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloJava.java" afterDir="false" />
+    <list default="true" id="967e799e-a5db-46f0-b120-aa44f9d79d2e" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,20 @@
       <recent name="D:\springboot\JavaSpringboot\src\Main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main.HelloJava">
+  <component name="RunManager" selected="Application.VariableTest">
+    <configuration name="BinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.BinaryTest" />
+      <module name="JavaSpringboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloJava" />
       <module name="JavaSpringboot" />
@@ -91,6 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.VariableTest" />
+      <module name="JavaSpringboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch01.HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.HelloJava" />
+      <module name="JavaSpringboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -116,12 +151,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.BinaryTest" />
       <item itemvalue="Application.Main.HelloJava" />
+      <item itemvalue="Application.VariableTest" />
+      <item itemvalue="Application.ch01.HelloJava" />
       <item itemvalue="Application.HelloJava" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VariableTest" />
+        <item itemvalue="Application.BinaryTest" />
+        <item itemvalue="Application.ch01.HelloJava" />
         <item itemvalue="Application.Main.HelloJava" />
         <item itemvalue="Application.HelloJava" />
       </list>
@@ -136,6 +177,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655111881666</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1655115154231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655115154231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +197,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
